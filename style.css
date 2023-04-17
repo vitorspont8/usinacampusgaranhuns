@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://img.freepik.com/fotos-gratis/nuvem-no-ceu-azul_1232-3108.jpg?w=740&t=st=1681493662~exp=1681494262~hmac=2fdc5dbe1d3ec2b454f2fd05cb08100e4da4986a53c4480d504a634e35db6faa') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #F2B33D;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(to bottom, #F2B33D, #D98E0A);
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: calc(100vh - 80px);
+}
+
+section {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+section:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-image: url('https://img.freepik.com/fotos-gratis/nuvem-no-ceu-azul_1232-3108.jpg?w=740&t=st=1681493662~exp=1681494262~hmac=2fdc5dbe1d3ec2b454f2fd05cb08100e4da4986a53c4480d504a634e35db6faa')no-repeat center center fixed;
+  background-size: cover;
+}
