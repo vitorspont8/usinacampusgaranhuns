@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Usina do Campus</title>
+    <style>
+      body {
+        background: url('https://img.freepik.com/fotos-gratis/nuvem-no-ceu-azul_1232-3108.jpg?w=740&t=st=1681493662~exp=1681494262~hmac=2fdc5dbe1d3ec2b454f2fd05cb08100e4da4986a53c4480d504a634e35db6faa') no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 64px;
+        color: #F2E0A9;
+        text-align: center;
+        margin-bottom: 60px;
+        text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      p {
+        font-size: 24px;
+        color: #F2E0A9;
+        text-align: center;
+        margin-bottom: 80px;
+        max-width: 800px;
+        text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .botao {
+        display: inline-block;
+        background-color: #F2B33D;
+        color: #FFF;
+        padding: 20px 40px;
+        margin: 20px;
+        border: none;
+        border-radius: 30px;
+        font-size: 36px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .botao:hover {
+        background-color: #ECA400;
+        transform: translateY(-5px);
+      }
+      .botao:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bem-vindo a página de monitoramento da usina do campus!</h1>
+      <p>Aqui, você encontrará todas as informações sobre a geração da usina</p>
+      <button onclick="openPopup('estudos')" class="botao">Variáveis</button>
+      <button onclick="openPopup('inversor2')" class="botao">Inversor 1</button>
+      <button onclick="openPopup('inversor3')" class="botao">Inversor 2</button>
+    </div>
+
+    <script>
+      function openPopup(inversor) {
+        window.open(inversor + '.html', 'popup', 'width=600,height=400');
+      }
+    </script>
+  </body>
+</html>
